@@ -1,0 +1,23 @@
+/* Game Status Bar CSS */
+
+.game-status-component {
+  z-index: 100;
+  top: 7rem;
+  position: absolute;
+  height: 80px;
+  width: 250px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: whitesmoke;
+  background-color: #19191a;
+  box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.77);
+}
+
+.inner-game-status {
+  margin-top: 1em;
+  font-family: 'Ultra', serif;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+
+}
